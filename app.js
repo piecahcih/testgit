@@ -12,7 +12,7 @@ app.get("/peach", (req, res) => res.send("peach"));
 app.get("/testjaaabypeach", (req, res) => res.send("peach"));
 app.get("/hahaha", (req, res) => res.send("hahaha"));
 app.get("/ohlaaaa", (req, res) => res.send("ohlaaaa"));
-app.get("/error", (req, res) => res.send("peachadderror"));
+app.get("/error ", (req, res) => res.send("peachadderror"));
 
 app.use((req, res, next) => {
   console.log("Log Request");
