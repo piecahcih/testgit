@@ -6,4 +6,4 @@ function errhdl() {
   )
 }
 
-export default errhdl
+export default errhdlgi
