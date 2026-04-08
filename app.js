@@ -11,6 +11,7 @@ app.get("/benjy", (req, res) => res.send("benjy"));
 app.get("/peach", (req, res) => res.send("peach"));
 app.get("/testjaaabypeach", (req, res) => res.send("peach"));
 app.get("/hahaha", (req, res) => res.send("hahaha"));
+app.get("/ohlaaaa", (req, res) => res.send("ohlaaaa"));
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
