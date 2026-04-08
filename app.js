@@ -12,6 +12,11 @@ app.get("/peach", (req, res) => res.send("peach"));
 app.get("/testjaaabypeach", (req, res) => res.send("peach"));
 app.get("/hahaha", (req, res) => res.send("hahaha"));
 
+app.use((req, res, next) => {
+  console.log("Log Request");
+  next();
+});
+
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
