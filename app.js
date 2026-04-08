@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
   res.send("Welcome to api!");
 });
 
-app.listen(PORT, () => {
+app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
