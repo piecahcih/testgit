@@ -10,6 +10,7 @@ app.get("/users", (req, res) => res.send("User list"));
 app.get("/benjy", (req, res) => res.send("benjy"));
 app.get("/peach", (req, res) => res.send("peach"));
 app.get("/testjaaabypeach", (req, res) => res.send("peach"));
+app.get("/hahaha", (req, res) => res.send("hahaha"));
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
